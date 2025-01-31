@@ -21,3 +21,28 @@ let employee = {
 employee.performanceScore = 92; // Updating the performanceScore property 
 employee.promotionEligible = employee.performanceScore >= 90; // Adding a new property 
 console.log("Updated Employee Record:", employee); // Logging the updated employee object 
+
+// Task 4: Customer Feedback Records Scenario
+let feedback = [
+    {
+        customerName: "Julia Ramos",
+        feedbackText: "Great service and fast delivery!",
+        rating: 5
+    },
+    {
+        customerName: "Pierina Bustamante",
+        feedbackText: "The product quality was really good!",
+        rating: 5
+    },
+    {
+        customerName: "Luana Shinsato",
+        feedbackText: "Had an issue with my order, but customer service resolved it quickly.",
+        rating: 4
+    }
+]; // Declaring an array with initial feedback objects 
+feedback.push({
+    customerName: "Jonathan Pacheco",
+    feedbackText: "Good product, but tracking was unclear.",
+    rating: 4
+}); // Adding a new feedback object to the array
+console.log("Customer Feedback Records:", feedback); // Logging the updated feedback list 
