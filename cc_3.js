@@ -10,3 +10,14 @@ orders[2] += 5; // Increasing the third order quantity by 5
 let totalOrders = orders.reduce((sum, quantity) => sum + quantity, 0); // Calculating the total number of all orders
 console.log("Updated Order List:", orders); // Logging the updated order list
 console.log("Total Order Count:", totalOrders); // Logging the total order count
+
+// Task 3: Employee Performance Tracking Scenario
+let employee = {
+    name: "Gabriela Sanchez",
+    role: "Data analyst",
+    performanceScore: 85,
+    isActive: true
+}; // Declaring an employee object 
+employee.performanceScore = 92; // Updating the performanceScore property 
+employee.promotionEligible = employee.performanceScore >= 90; // Adding a new property 
+console.log("Updated Employee Record:", employee); // Logging the updated employee object 
