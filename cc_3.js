@@ -46,3 +46,15 @@ feedback.push({
     rating: 4
 }); // Adding a new feedback object to the array
 console.log("Customer Feedback Records:", feedback); // Logging the updated feedback list 
+
+// Task 5: Inventory Management System Scenario
+let inventory = {
+    itemName: "Bluetooth Speaker",
+    stockCount: 40,
+    price: 35,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+}; // Declaring an inventory object 
+console.log("Inventory Details:", inventory); // Logging the inventory details
+console.log("Total Inventory Value:", inventory.calculateTotalValue()); // Logging the total inventory value
